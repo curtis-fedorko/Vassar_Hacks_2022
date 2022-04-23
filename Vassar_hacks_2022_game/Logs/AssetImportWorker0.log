@@ -200,3 +200,35 @@ Received Import Request.
 Start importing Assets/Sprites/—Pngtree—bottle waste that can pollute_7362220.png using Guid(20c90fdab31af4bd09723e211614df07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b89b4222e0a2cdf639bef5535dfe0a') in 0.560836 seconds 
   Import took 0.573994 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 46.040213 seconds.
+  path: Assets/Sprites/Bottle.png
+  artifactKey: Guid(20c90fdab31af4bd09723e211614df07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bottle.png using Guid(20c90fdab31af4bd09723e211614df07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b89dc2cd41dc362a9baaba2c2acbf2') in 0.060473 seconds 
+  Import took 0.066177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1530.149307 seconds.
+  path: Assets/Sprites/looping_background.png
+  artifactKey: Guid(cb0c11642913647bf9615b6a6aa1bc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/looping_background.png using Guid(cb0c11642913647bf9615b6a6aa1bc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb47509bb5196d23b592b0522ccf35a') in 0.132420 seconds 
+  Import took 0.186951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.601329 seconds.
+  path: Assets/Sprites/looping_background.png
+  artifactKey: Guid(cb0c11642913647bf9615b6a6aa1bc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/looping_background.png using Guid(cb0c11642913647bf9615b6a6aa1bc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e103681e6566cb90b911bcd2aa451707') in 0.026168 seconds 
+  Import took 0.030514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.753584 seconds.
+  path: Assets/Sprites/looping_background.png
+  artifactKey: Guid(cb0c11642913647bf9615b6a6aa1bc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/looping_background.png using Guid(cb0c11642913647bf9615b6a6aa1bc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7e2c6fdb90cd88c67a1f77a8798a04') in 0.229676 seconds 
+  Import took 0.234411 seconds .
+
