@@ -120,6 +120,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -880,6 +881,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      looping_background_22: 4266983162032225049
+      looping_background_26: -4978021944357780592
+      looping_background_18: 5215298457592284804
+      looping_background_12: 7097741870948980603
+      looping_background_31: -5094177390393248968
+      looping_background_0: -7800452854307700282
+      looping_background_17: -789487953092363950
+      looping_background_13: -2360914504121702300
+      looping_background_19: -6011930037265046568
+      looping_background_6: 4177550877225612791
+      looping_background_4: 794307933944591978
+      looping_background_16: 7764124269206521057
+      looping_background_20: -2377427228609899757
+      looping_background_15: -764106900654813203
+      looping_background_30: -7092093736960010416
+      looping_background_25: 8683947723980870288
+      looping_background_2: 1822961311715100541
+      looping_background_11: -6280773490329126443
+      looping_background_27: -9193335885335533053
+      looping_background_7: 1359426106001507816
+      looping_background_24: -8980039056492524229
+      looping_background_28: -4933070854955043017
+      looping_background_23: 2264814271574746709
+      looping_background_1: 718186332653225224
+      looping_background_9: -4798502256873388852
+      looping_background_29: 1525174694375254080
+      looping_background_10: 765286590590178699
+      looping_background_14: 2636813179208913458
+      looping_background_3: -3937563939409987757
+      looping_background_5: -1396230194624707760
+      looping_background_8: 9023003836668313506
+      looping_background_21: 1810133889061180593
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
