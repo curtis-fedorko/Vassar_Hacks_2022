@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 public class menuControl : MonoBehaviour
 {
     [Header("Levels To Load")]
-    public string _cityLevel;
-    public string _suburbsLevel;
+    public string _cityLevel = "";
+    public string _suburbsLevel = "";
 
     public void CityDialogYes(){
         SceneManager.LoadScene(_cityLevel);

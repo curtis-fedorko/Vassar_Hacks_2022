@@ -13,6 +13,7 @@ public float jumpAmount = 10;
 public string currentObject = ""; 
 public static int health = 0; 
 public string[] recycleobjects = {"waterbottle"}; 
+public string[] trashobjects = {}; 
 public static int score = 0; 
     // Start is called before the first frame update
     void Start()
@@ -52,6 +53,16 @@ public static int score = 0;
 
     if(other.CompareTag("recyclebin")){
         if(Array.BinarySearch(recycleobjects,currentObject) >= 0){
+            currentObject = ""; 
+            score++; 
+        }
+        else{
+            health--; 
+        } 
+    }
+
+    if(other.CompareTag("trashcan")){
+        if(Array.BinarySearch(trashobjects,currentObject) >= 0){
             currentObject = ""; 
             score++; 
         }
