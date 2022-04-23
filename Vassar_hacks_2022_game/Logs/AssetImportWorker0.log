@@ -184,3 +184,19 @@ Received Import Request.
 Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed64c6f60b6d39fef891c2fd704c274d') in 0.001910 seconds 
   Import took 0.005528 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 416.165170 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(2c99e365ff01f4c5fb3d05f9d3a1d6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(2c99e365ff01f4c5fb3d05f9d3a1d6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d565bbcbec69b30030daf8a5c13374b') in 0.010822 seconds 
+  Import took 0.112832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.425850 seconds.
+  path: Assets/Sprites/—Pngtree—bottle waste that can pollute_7362220.png
+  artifactKey: Guid(20c90fdab31af4bd09723e211614df07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/—Pngtree—bottle waste that can pollute_7362220.png using Guid(20c90fdab31af4bd09723e211614df07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b89b4222e0a2cdf639bef5535dfe0a') in 0.560836 seconds 
+  Import took 0.573994 seconds .
+
