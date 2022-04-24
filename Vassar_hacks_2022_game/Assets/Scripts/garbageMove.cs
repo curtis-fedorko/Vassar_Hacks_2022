@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class garbageMove : MonoBehaviour
 {
-   public float speed = 1.5f;
+   public float speed = 3f;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +14,6 @@ public class garbageMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-          transform.Translate(Vector3.left * speed * Time.deltaTime);  
+          transform.Translate(Vector3.left * 3f * Time.deltaTime);  
     }
 }

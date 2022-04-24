@@ -26,6 +26,9 @@ public int recyclelevel = 0;
     // Update is called once per frame
     void Update()
     {
+        if(health <= 0){
+            SceneManager.LoadScene("StartMenu");
+        }
         if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)){
         transform.Translate(Vector3.left * speed * Time.deltaTime); 
        // anim.SetBool("is_walking", true);
@@ -119,7 +122,7 @@ gameObject.transform.position = new Vector3(12.8f, gameObject.transform.position
             score++; 
         }
         else if(recyclelevel == 2){
-            health -= 5; 
+            health -= 10; 
         } 
     }
 
@@ -130,7 +133,7 @@ gameObject.transform.position = new Vector3(12.8f, gameObject.transform.position
             score++; 
         }
          else if(recyclelevel == 1){
-            health -= 5; 
+            health -= 10; 
         } 
     }
     }

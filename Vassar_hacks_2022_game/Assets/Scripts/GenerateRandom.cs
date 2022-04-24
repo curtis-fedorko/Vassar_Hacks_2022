@@ -19,7 +19,7 @@ public class GenerateRandom : MonoBehaviour
         timey += Time.deltaTime;
         objecttimey += Time.deltaTime; 
         
-        if(timey >= 15){
+        if(timey >= 7){
             float randomtime = Random.Range(0f, 1f); 
             if(randomtime >= .5){
             SpawnNewRecycle(); 
@@ -29,7 +29,7 @@ public class GenerateRandom : MonoBehaviour
             }
             timey = 0; 
         }
-        if(objecttimey >= 2){
+        if(objecttimey >= 5){
             SpawnNewObject(); 
             objecttimey = 0; 
         }

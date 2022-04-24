@@ -7,18 +7,25 @@ using UnityEngine.SceneManagement;
 public class menuControl : MonoBehaviour
 {
     [Header("Levels To Load")]
+    public static string tracky = ""; 
     public string _cityLevel = "";
     public string _suburbsLevel = "";
 
+void Update(){
+
+
+}
     public void CityDialogYes(){
-        SceneManager.LoadScene(_cityLevel);
+        tracky = "city"; 
+        SceneManager.LoadScene("MainScene");
     }
 
     public void SuburbsDialogYes(){
-        SceneManager.LoadScene(_suburbsLevel);
+        tracky = "burbs"; 
+        SceneManager.LoadScene("MainScene");
     }
 
     public void QuitButton(){
-        Application.Quit();
+        SceneManager.LoadScene("EndScene");
     }
 }
