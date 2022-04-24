@@ -7,6 +7,16 @@ TagManager:
   - bottle
   - recyclebin
   - trashcan
+  - books
+  - cardboard
+  - metal chair
+  - newspaper
+  - aerosol can
+  - plastic bag
+  - styrofoam
+  - batteries
+  - wires
+  - lighter
   layers:
   - Default
   - TransparentFX
