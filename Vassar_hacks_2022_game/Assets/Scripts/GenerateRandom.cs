@@ -29,7 +29,7 @@ public class GenerateRandom : MonoBehaviour
             }
             timey = 0; 
         }
-        if(objecttimey >= 12){
+        if(objecttimey >= 2){
             SpawnNewObject(); 
             objecttimey = 0; 
         }
@@ -51,7 +51,7 @@ public class GenerateRandom : MonoBehaviour
         int rannum = Random.Range(2,11);
         GameObject nc = Instantiate(newObject[rannum], this.transform) as GameObject; 
         nc.GetComponent<Renderer>().enabled = true;
-        nc.transform.localPosition = new Vector3(-12.44f, -3.8f, -1f);
+        nc.transform.localPosition = new Vector3(-9.5f, -3.8f, -1f);
 
     }
    

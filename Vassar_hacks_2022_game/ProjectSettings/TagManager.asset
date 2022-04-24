@@ -17,6 +17,11 @@ TagManager:
   - batteries
   - wires
   - lighter
+  - wall
+  - rwall
+  - lwall
+  - uwall
+  - dwall
   layers:
   - Default
   - TransparentFX

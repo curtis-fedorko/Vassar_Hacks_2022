@@ -49,55 +49,67 @@ public int recyclelevel = 0;
     void OnTriggerEnter2D(Collider2D other){
     
     if(other.CompareTag("bottle")){
-        other.GetComponent<Renderer>().enabled = false;
+        other.transform.Translate(Vector3.down * 1000f * Time.deltaTime); 
         currentObject = "waterbottle"; 
         recyclelevel = 1; 
     }
 
     if(other.CompareTag("cardboard")){
-        other.GetComponent<Renderer>().enabled = false;
+         other.transform.Translate(Vector3.down * 1000f * Time.deltaTime); 
         currentObject = "cardboard"; 
         recyclelevel = 1; 
     }
     if(other.CompareTag("metal chair")){
-        other.GetComponent<Renderer>().enabled = false;
+         other.transform.Translate(Vector3.down * 1000f * Time.deltaTime); 
         currentObject = "metal chair"; 
         recyclelevel = 1; 
     }
      if(other.CompareTag("newspaper")){
-        other.GetComponent<Renderer>().enabled = false;
+         other.transform.Translate(Vector3.down * 1000f * Time.deltaTime); 
         currentObject = "newspaper"; 
         recyclelevel = 1; 
     }
     if(other.CompareTag("aerosol can")){
-        other.GetComponent<Renderer>().enabled = false;
+         other.transform.Translate(Vector3.down * 1000f * Time.deltaTime); 
         currentObject = "aerosol can"; 
         recyclelevel = 1; 
     }
      if(other.CompareTag("plastic bag")){
-        other.GetComponent<Renderer>().enabled = false;
+         other.transform.Translate(Vector3.down * 1000f * Time.deltaTime); 
         currentObject = "plastic bag"; 
         recyclelevel = 2; 
     }
      if(other.CompareTag("styrofoam")){
-        other.GetComponent<Renderer>().enabled = false;
+         other.transform.Translate(Vector3.down * 1000f * Time.deltaTime); 
         currentObject = "styrofoam"; 
         recyclelevel = 2; 
     }
      if(other.CompareTag("batteries")){
-        other.GetComponent<Renderer>().enabled = false;
+         other.transform.Translate(Vector3.down * 1000f * Time.deltaTime); 
         currentObject = "batteries"; 
         recyclelevel = 2; 
     }
      if(other.CompareTag("wires")){
-        other.GetComponent<Renderer>().enabled = false;
+         other.transform.Translate(Vector3.down * 1000f * Time.deltaTime); 
         currentObject = "wires"; 
         recyclelevel = 2; 
     }
      if(other.CompareTag("lighter")){
-        other.GetComponent<Renderer>().enabled = false;
+         other.transform.Translate(Vector3.down * 1000f * Time.deltaTime); 
         currentObject = "lighter"; 
         recyclelevel = 2; 
+    }
+    if(other.CompareTag("dwall")){
+gameObject.transform.position = new Vector3(gameObject.transform.position.x, 8.1f, gameObject.transform.position.z);
+    }
+     if(other.CompareTag("uwall")){
+gameObject.transform.position = new Vector3(gameObject.transform.position.x, -4.5f, gameObject.transform.position.z);        
+    }
+     if(other.CompareTag("rwall")){
+gameObject.transform.position = new Vector3(-5.5f, gameObject.transform.position.y, gameObject.transform.position.z);  
+    }
+     if(other.CompareTag("lwall")){
+gameObject.transform.position = new Vector3(12.8f, gameObject.transform.position.y, gameObject.transform.position.z);   
     }
 
     if(other.CompareTag("recyclebin")){
